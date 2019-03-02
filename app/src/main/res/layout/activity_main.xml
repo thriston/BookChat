@@ -8,45 +8,58 @@
     android:layout_gravity="bottom"
     tools:context=".MainActivity">
 
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:src="@drawable/ic_send"
-        android:layout_alignParentBottom="true"
+        android:layout_height="68dp"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_send"
         android:tint="@android:color/white"
-        app:fabSize="mini"
-    />
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="mini" />
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp"
         android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/fab"
-        >
+        android:layout_toStartOf="@+id/fab"
+        app:hintEnabled="false">
 
         <EditText
+            android:id="@+id/input"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_marginLeft="7dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type a message"
-            android:id="@+id/input"
-            />
+            android:hint="@string/typeMessage"
+            android:inputType="text" />
 
     </android.support.design.widget.TextInputLayout>
 
     <ListView
         android:id="@+id/list_of_message"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="557dp"
         android:layout_above="@id/fab"
-        android:dividerHeight="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
         android:divider="@android:color/transparent"
-        android:layout_marginBottom="16dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:dividerHeight="16dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll">
 
     </ListView>
 

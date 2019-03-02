@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
                 messageUser = (TextView)v.findViewById(R.id.message_user);
                 messageTime = (TextView)v.findViewById(R.id.message_time);
 
-                System.out.println("HERE: "+model.getMessageText());
+                //System.out.println("HERE: "+model.getMessageText());
 
                 messageText.setText(model.getMessageText());
                 messageUser.setText(model.getMessageUser());

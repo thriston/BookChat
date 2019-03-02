@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BookChat</string>
+    <string name="typeMessage">Type a message</string>
 </resources>
