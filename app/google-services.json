@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "822882890505",
+    "firebase_url": "https://booksterchat.firebaseio.com",
+    "project_id": "booksterchat",
+    "storage_bucket": "booksterchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822882890505:android:94565518151a0d01",
+        "android_client_info": {
+          "package_name": "com.example.bookchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822882890505-muli77e03jtdh2bbq4vi4b2ej2mi5d9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookchat",
+            "certificate_hash": "01a657e18f4940aaf4c7045840f3300c56626764"
+          }
+        },
+        {
+          "client_id": "822882890505-2ndb016cpdj9rejtdapbj2cuhe2t0nd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjvMjNXEYkqUzE__EK34JhuRq3lnN6Ji0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822882890505-2ndb016cpdj9rejtdapbj2cuhe2t0nd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
